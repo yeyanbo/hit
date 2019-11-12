@@ -44,7 +44,7 @@ CQF项目采用的策略是识别每个领域使用的通用组件，并为每�
 * 通用逻辑表述标准:
     [临床质量语言规范,第1版STU4(CQL1.4)](https://cql.hl7.org/)
 * 通用数据模型标准:
-    [FHIR配置文件:质量,第1版-美国领域](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=415)
+    [FHIR配置文件(Profile):质量,第1版-美国领域](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=415)
 
 ### 临床质量语言:CQL
 
@@ -62,7 +62,7 @@ CQF项目采用的策略是识别每个领域使用的通用组件，并为每�
 
 ## CQF与FHIR
 
-[HL7 FHIR](http://hl7.org/fhir)是用于交换医疗信息的标准。CQF项目组在其上开发了用于表示质量度量和决策支持的多种FHIR资源、配置文件和实施指南。这些内容:
+[HL7 FHIR](http://hl7.org/fhir)是用于交换医疗信息的标准。CQF项目组在其上开发了用于表示质量度量和决策支持的多种FHIR资源(Resource)、配置文件(Profile)和实施指南(ImplementationGuide)。这些内容:
 * 与通用元数据标准保持一致，用**CQL**进行规则的逻辑表述，并使用**QI-Core**配置文件来表示临床信息。
 * 在FHIR的标准试用第3版中成为了[临床推断模块](http://hl7.org/fhir/clinicalreasoning-module.html)的一部分。
 * 在各种环境中被使用和测试，包括**FHIR Connectathon**活动和一些试点，以验证其可以有效满足标准需要，可以保证决策支持和质量度量工件的交付。
